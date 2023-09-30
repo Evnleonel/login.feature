@@ -14,13 +14,8 @@
             Então deve direcionar o usuário a tela de Checkout
 
             Cenário: Autenticação inválida
-            Quando eu digitar os dados de autenticação do usuário "evandro.leonel@ebac.com.br"
-            E senha "000@Ebac"
-            Então deve exibir a mensagem "Usuário ou senha inválidos"
-
-            Cenário: Autenticação inválida
             Quando eu digitar os dados de autenticação do usuário "evandroleonel@ebac.com.br"
-            E senha "123@Ebac"
+            E senha "000@Ebac"
             Então deve exibir a mensagem "Usuário ou senha inválidos"
 
             Esquema do Cenário: Autenticar multiplos usuários inválidos
